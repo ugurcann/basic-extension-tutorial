@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "My First Extension",
+    "version": "1.0.0",
+    "description": "A simple Chrome extension",
+    "permissions": ["storage"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_title": "A tooltip shows on the Extension icon on toolbar.",
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/icon16.png",
+        "24": "images/icon24.png",
+        "32": "images/icon32.png",
+        "128": "images/icon128.png"
+      }
+    },
+    "icons": {
+      "16": "images/icon16.png",
+      "24": "images/icon24.png",
+      "32": "images/icon32.png",
+      "128": "images/icon128.png"
+    }
+  }

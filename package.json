@@ -1,0 +1,8 @@
+{
+  "name": "basic-extension-tutorial",
+  "version": "1.0.0",
+  "description": "A basic chrome extension tutorial",
+  "main": "popup.js",
+  "author": "Ugurcan Ertek",
+  "license": "ISC"
+}
